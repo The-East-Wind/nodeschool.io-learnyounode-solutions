@@ -1,0 +1,1 @@
+console.log(process.argv.slice(2).map(Number).reduce((sum,number)=>sum+number,0));
